@@ -79,3 +79,5 @@ ifneq (,$(filter sdm845 sdm710, $(TARGET_BOARD_PLATFORM)))
       BOARD_VENDOR_SEPOLICY_DIRS += $(SEPOLICY_PATH)/legacy/vendor/test/mst_test_app
     endif
 endif
+
+-include device/pixys/sepolicy/qcom/sepolicy.mk
